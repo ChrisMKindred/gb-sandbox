@@ -1,0 +1,17 @@
+{
+    "name": "kindred/gb-sandbox",
+    "description": "",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Chris Kindred",
+            "email": "cmkindred@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sandbox\\": "inc/"
+        }
+    }
+}
