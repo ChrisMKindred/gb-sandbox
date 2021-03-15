@@ -32,7 +32,7 @@ final class GB_Sandbox {
 			'wp-blocks',
 			'wp-editor',
 			'wp-i18n',
-			'wp-elements',
+			'wp-element',
 			'wp-components',
 			'wp-data',
 		];
