@@ -9,7 +9,7 @@ registerBlockType( 'sandbox/hello', {
 	attributes: {},
 	edit: ( { attributes, setAttributes } ) => {
 		return(
-			<h2>Hello</h2>
+			<h2>Hello </h2>
 		)
 	},
 	save: ( { attributes } ) => {

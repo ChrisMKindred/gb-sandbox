@@ -10,10 +10,17 @@ Text Domain: gb-sandbox
 Domain Path: /languages
 */
 
+use Sandbox\GB_Sandbox;
+
 require_once( 'vendor/autoload.php' );
 
+
+register_activation_hook( __FILE__, [ GB_Sandbox::class, 'activate' ] );
+register_deactivation_hook( __FILE__, [ GB_Sandbox::class, 'deactivate' ] );
+
+
 function run_gb_sandbox() {
-	return Sandbox\GB_Sandbox::init();
+	return GB_Sandbox::init();
 }
 
 run_gb_sandbox();

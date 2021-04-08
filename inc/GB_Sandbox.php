@@ -15,6 +15,24 @@ final class GB_Sandbox {
 		$this->enqueue_scripts();
 	}
 
+	/**
+	 * Any code you want to run when deactivating the plugin.
+	 *
+	 * @return void
+	 */
+	public function activate() {
+		return;
+	}
+
+	/**
+	 * Any code that you want to run when deactivating the plugin.
+	 *
+	 * @return void
+	 */
+	public function deactivate() {
+		return;
+	}
+
 	public function enqueue_scripts() {
 		add_action( 'enqueue_block_editor_assets', [ $this, 'register_block_editor_assets' ] );
 		add_action( 'admin_enqueue_scripts', [ $this, 'register_admin_scripts' ] );

@@ -4,6 +4,7 @@ import { PanelBody, Button, ResponsiveWrapper } from "@wordpress/components";
 import { Fragment } from "@wordpress/element";
 import { __ } from "@wordpress/i18n";
 import { withSelect } from "@wordpress/data";
+import { InnerBlocks, useBlockProps } from "@wordpress/block-editor";
 
 const BlockEdit = (props) => {
 	const { attributes, setAttributes } = props;

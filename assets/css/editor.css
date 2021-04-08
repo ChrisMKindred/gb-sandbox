@@ -1,0 +1,6 @@
+.wp-block-sandbox-split {
+	display: flex;
+	height: 400px;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
